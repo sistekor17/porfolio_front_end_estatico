@@ -1,42 +1,79 @@
-:root{
-    --main-color: #00b4cd;
-	--main-color-dark: #00868f;
-	--main-color-light: #BFFBFF;
+/* navbar-logo */
+.navbar-brand img{
+    width: 3em;
+    margin-top:5px;
 }
+/* navbar and icons*/
+.navbar{
+    background-color: #e4e3e3cf;   
+}
+/* social networks */
+.navbar i{
+    font-size: 3em;
+    color: black;
+    margin-right: 10px;
+    opacity: 60%;
 
-/* navbar */
-.btn{
-    width: 125px;
-    margin-right: 15px;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
+
     
 }
+/* button login navbar */
+.button__login{
+    width: 125px;
+    margin-right: 15px;
+   
+  }
 
 /* banner and profile image */
 .banner{
     width: 100;
     height: 40%;
     padding: 0px ; 
-    position: relative;  
+    position: relative;
+    margin-top: 2cm;  
 }
 .banner img{
     border-radius: 20px;
+    
 }
-
-.profile{
-
-}
-#profile-container img {
-    width: 100%;
-    height: 100%;
+    /* profile image */
+.profile__image{
+    position: relative;
+	text-align: center; 
 
 }
+.profile__image img{
+    width:20em;
+    border-radius: 50%;
+    position:relative;
+    margin-top: -3em;
+    
+}
+.buton__pencil{
+    font-size: 1.1em;
+    position:relative;
+    padding: 1px;
+    background-color:white;
+    color: black;
+}
+.icon__potioner1{
+    display:inline-block;
+    margin-left: 22em;
+    margin-top: -2em;
+}
+.profileimage h1{
+    padding-top: 170px;
+    text-align: center;    
+}
+.profileimage h2{
+    text-align: center;
+}
+.description-me{
+	padding: 2%;
+}
+.description-me .buton__pencil{
+    margin-top: -3em;
+}
+
+    
 
