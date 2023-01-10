@@ -5,7 +5,7 @@
 }
 /* navbar and icons*/
 .navbar{
-    background-color: #e4e3e3cf;   
+    background-color: #e4e3e3cf;
 }
 /* social networks */
 .navbar i{
@@ -15,31 +15,31 @@
     opacity: 60%;
 
 
-    
+
 }
 /* button login navbar */
 .button__login{
     width: 125px;
     margin-right: 15px;
-   
+
   }
 
 /* banner and profile image */
 .banner{
     width: 100;
     height: 40%;
-    padding: 0px ; 
+    padding: 0px ;
     position: relative;
-    margin-top: 2cm;  
+    margin-top: 2cm;
 }
 .banner img{
     border-radius: 20px;
-    
+
 }
     /* profile image */
 .profile__image{
     position: relative;
-	text-align: center; 
+	text-align: center;
 
 }
 .profile__image img{
@@ -47,33 +47,65 @@
     border-radius: 50%;
     position:relative;
     margin-top: -3em;
-    
+
 }
 .buton__pencil{
     font-size: 1.1em;
     position:relative;
     padding: 1px;
-    background-color:white;
+    background-color:none;
     color: black;
+    margin: 10px;
 }
 .icon__potioner1{
     display:inline-block;
-    margin-left: 22em;
+    margin-left: 75%;
     margin-top: -2em;
 }
 .profileimage h1{
     padding-top: 170px;
-    text-align: center;    
+    text-align: center;
 }
 .profileimage h2{
     text-align: center;
 }
-.description-me{
-	padding: 2%;
+.description__me{
+    padding-top: 20px;
+	
 }
 .description-me .buton__pencil{
     margin-top: -3em;
 }
 
-    
+
+.separacion{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* Experiencia and education */
+.borde__sombreado{
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 15px #a4a3a3;
+    border-radius: 20px;
+}
+.borde__sombreadofilas{
+    border: 1px solid #ccc;
+    box-shadow: 7px 7px 15px #a4a3a3;
+    border-radius: 20px;
+    margin-top:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.order__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Hard skills & Sof skills */
+
+
+
+
+
+
 
