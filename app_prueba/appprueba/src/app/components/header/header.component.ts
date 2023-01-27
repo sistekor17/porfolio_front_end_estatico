@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-title:string =  " My Task List";
+
+  title : string = "task list"; 
+
+  toggleAddTask(){
+    console.log("toggle add task!!")
+  }
 }
