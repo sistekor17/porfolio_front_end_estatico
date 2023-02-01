@@ -15,3 +15,5 @@ export class ButtonComponent {
   }
 
 }
+// para verificar si el binding de la funcion onClick se puede pedir un retorno a consola (console.log("Mensaje de verificacion")) y verificarlo en la terminal del navegador. 
+// EventEmitter es una clase que esta predefinida en Angular, sirve para emitir hacia afuera del componente una accion.

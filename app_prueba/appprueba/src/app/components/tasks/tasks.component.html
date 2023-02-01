@@ -1,0 +1,9 @@
+<app-tasks-item 
+  *ngFor="let task of tasks"
+  [task] = "task"
+>
+</app-tasks-item>
+
+
+<!-- Con la directiva estructural ngFor se busca iterar la lista de tasks  -->
+<!-- Para que cada task forme una tarjeta hay que generar un nuevo componente, en este caso tasks-item -->

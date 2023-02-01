@@ -1,9 +1,11 @@
 <header>
   <h1>{{title}}</h1>
   <app-button 
-    color = "red" 
+    color = "green" 
     text = "add Task"
-    (btnClick)="toggleAddTask()"
+    (btnClick)="toggleAddTask"
   ></app-button>
 </header>
 
+<!-- las variables color y text estan definidas desde el button-component -->
+<!-- Las variables por ej. en el caso del componente button hay que definirlas primero dentro del mismo componente y despues se invocan dentro de la etiqueta del mismo -->
