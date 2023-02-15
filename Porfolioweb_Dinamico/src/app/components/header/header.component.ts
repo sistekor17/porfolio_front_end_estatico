@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
+import { PorfolioService } from 'src/app/services/porfolio.service';
+
 
 @Component({
   selector: 'app-header',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  constructor(private datosPorfolio: PorfolioService ){}
+
+  ngOnInit(): void{
+    this.datosPorfolio.obtenerDatos();
+  }
 
 }
