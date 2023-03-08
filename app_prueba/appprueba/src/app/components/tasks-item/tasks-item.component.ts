@@ -10,6 +10,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class TasksItemComponent {
   @Input() task: Task = TASKS[0];
-  
+  // Icono 
   faTimes = faTimes;
+
 }

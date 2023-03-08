@@ -1,5 +1,5 @@
 import { Task } from "./Task"
-
+//Aqui se esta declarando la variable TASK y agregandole el tipo de la interfas anteriormente declarada "Task"
 export const TASKS: Task[] = [
   {
    id : 1,

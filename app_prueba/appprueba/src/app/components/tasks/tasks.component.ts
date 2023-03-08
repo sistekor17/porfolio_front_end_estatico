@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TaskService } from 'src/app/service/task.service';
 import { Task } from '../Task';
-import { TASKS } from '../mock-tasks';
 
 @Component({
   selector: 'app-tasks',
@@ -8,9 +8,18 @@ import { TASKS } from '../mock-tasks';
   styleUrls: ['./tasks.component.css']
 })
 export class TasksComponent {
-  tasks: Task[] = TASKS;
-  
+  tasks: Task[] = [];
+  constructor( private taskService: TaskService
+    ){}
+  ngOnInit(): void {
+    //Como promesa
+    this.taskService.getTasks().subscribe((tasks) =>{
+      this.tasks = tasks;
+    });
+  }
 }
+  
+
 // Aqui se importo: 1.La interfas de esa lista de tareas donde se definio el tipo de valor.  (import {Task} from '../task'')
 //                  2. La lista  de task que se creo en formato json. (import {TASK} from '../mock-tasks' '
 
