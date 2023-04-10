@@ -14,7 +14,7 @@ export const TASKS:Task[] = [
         reminder: true
     },
     {
-        id: 1,
+        id: 1, 
         text : "Conectar el backend con el frontend ",
         day : "12 de abril",
         reminder: true
